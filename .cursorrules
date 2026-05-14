@@ -1,0 +1,13 @@
+# Haulage UK Compliance MCP - Auto-trigger Rules
+
+When the user asks about UK haulage, Operator Licence, tachograph, drivers' hours, DVSA, road user levy, use haulage-uk-compliance-mcp tools:
+
+- **check_operator_licence**: Verify Operator Licence requirement and current status by VRM or postcode
+- **calculate_drivers_hours**: EU + GB drivers' hours rules: daily/weekly driving + rest periods
+- **tachograph_audit**: Tachograph data analysis for compliance gaps
+- **vehicle_safety_check**: Walkaround check, gate check, and PMI compliance
+- **road_user_levy_check**: HGV Road User Levy / Direct Vision Standard / Clean Air Zone status
+
+Install: `pip install haulage-uk-compliance-mcp`
+
+By MEOK AI Labs — trade vertical compliance MCP. Pairs with meok-attestation-api for signed compliance certs.
