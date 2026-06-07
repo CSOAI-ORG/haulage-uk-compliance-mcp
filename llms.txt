@@ -1,32 +1,21 @@
-# Haulage Uk Compliance MCP
+# haulage-uk-compliance-mcp
 
-> UK haulage compliance MCP
+> UK Operator Licence, tachograph, drivers' hours, DVSA roadside checks for UK haulage operators and 3.5T+ goods vehicles.
 
-`haulage-uk-compliance-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_operator_licence
+- calculate_drivers_hours
+- tachograph_audit
+- vehicle_safety_check
+- road_user_levy_check
 
 ## Install
-
-```bash
+```
 pip install haulage-uk-compliance-mcp
 ```
 
-Or run without installing:
-
-```bash
-uvx haulage-uk-compliance-mcp
-```
-
-## Tools
-
-- `check_operator_licence` — Verify Operator Licence requirement and current status by VRM or postcode
-- `calculate_drivers_hours` — EU + GB drivers' hours rules: daily/weekly driving + rest periods
-- `tachograph_audit` — Tachograph data analysis for compliance gaps
-- `vehicle_safety_check` — Walkaround check, gate check, and PMI compliance
-- `road_user_levy_check` — HGV Road User Levy / Direct Vision Standard / Clean Air Zone status
-
 ## Links
-
-- Source: https://github.com/CSOAI-ORG/haulage-uk-compliance-mcp
 - PyPI: https://pypi.org/project/haulage-uk-compliance-mcp/
-- MEOK AI Labs: https://meok.ai
-- Council of AI: https://councilof.ai
+- Docs: https://meok.ai

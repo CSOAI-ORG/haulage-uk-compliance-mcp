@@ -1,0 +1,28 @@
+name: haulage-uk-compliance-mcp
+description: 'MCP server: haulage-uk-compliance-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/haulage-uk-compliance-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_operator_licence
+  description: Verify Operator Licence requirement and current status by VRM or postcode
+- name: calculate_drivers_hours
+  description: 'EU + GB drivers'' hours rules: daily/weekly driving + rest periods'
+- name: tachograph_audit
+  description: Tachograph data analysis for compliance gaps
+- name: vehicle_safety_check
+  description: Walkaround check, gate check, and PMI compliance
+- name: road_user_levy_check
+  description: HGV Road User Levy / Direct Vision Standard / Clean Air Zone status
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

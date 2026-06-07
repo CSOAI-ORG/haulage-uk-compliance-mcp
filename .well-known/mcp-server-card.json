@@ -1,0 +1,28 @@
+{
+  "name": "haulage-uk-compliance-mcp",
+  "title": "Haulage Uk Compliance Mcp",
+  "description": "UK Operator Licence, tachograph, drivers' hours, DVSA roadside checks for UK haulage operators and 3.5T+ goods vehicles.",
+  "version": "1.0.5",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_operator_licence"
+    },
+    {
+      "name": "calculate_drivers_hours"
+    },
+    {
+      "name": "tachograph_audit"
+    },
+    {
+      "name": "vehicle_safety_check"
+    },
+    {
+      "name": "road_user_levy_check"
+    }
+  ]
+}
