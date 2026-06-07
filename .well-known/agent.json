@@ -1,0 +1,68 @@
+{
+  "name": "haulage-uk-compliance-mcp",
+  "description": "UK Operator Licence, tachograph, drivers' hours, DVSA roadside checks for UK haulage operators a...",
+  "url": "https://proofof.ai/scorecard/haulage-uk-compliance-mcp.html",
+  "version": "1.0.5",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_operator_licence",
+      "name": "Check Operator Licence",
+      "description": "check_operator_licence via haulage-uk-compliance-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_drivers_hours",
+      "name": "Calculate Drivers Hours",
+      "description": "calculate_drivers_hours via haulage-uk-compliance-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "tachograph_audit",
+      "name": "Tachograph Audit",
+      "description": "tachograph_audit via haulage-uk-compliance-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "vehicle_safety_check",
+      "name": "Vehicle Safety Check",
+      "description": "vehicle_safety_check via haulage-uk-compliance-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "road_user_levy_check",
+      "name": "Road User Levy Check",
+      "description": "road_user_levy_check via haulage-uk-compliance-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
