@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "haulage-uk-compliance-mcp": {
+      "command": "uvx",
+      "args": [
+        "haulage-uk-compliance-mcp"
+      ]
+    }
+  }
+}
