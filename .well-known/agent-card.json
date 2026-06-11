@@ -1,0 +1,117 @@
+{
+  "name": "Haulage Uk Compliance Mcp",
+  "version": "1.0.5",
+  "url": "https://mcp.meok.ai/haulage-uk-compliance-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK Operator Licence, tachograph, drivers' hours, DVSA roadside checks for UK haulage operators and 3.5T+ goods vehicles.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_operator_licence",
+      "name": "Check Operator Licence",
+      "description": "Check Operator Licence — a tool of the haulage-uk-compliance-mcp MCP.",
+      "tags": [
+        "compliance",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "calculate_drivers_hours",
+      "name": "Calculate Drivers Hours",
+      "description": "Calculate Drivers Hours — a tool of the haulage-uk-compliance-mcp MCP.",
+      "tags": [
+        "compliance",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "tachograph_audit",
+      "name": "Tachograph Audit",
+      "description": "Tachograph Audit — a tool of the haulage-uk-compliance-mcp MCP.",
+      "tags": [
+        "compliance",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "vehicle_safety_check",
+      "name": "Vehicle Safety Check",
+      "description": "Vehicle Safety Check — a tool of the haulage-uk-compliance-mcp MCP.",
+      "tags": [
+        "compliance",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "road_user_levy_check",
+      "name": "Road User Levy Check",
+      "description": "Road User Levy Check — a tool of the haulage-uk-compliance-mcp MCP.",
+      "tags": [
+        "compliance",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "haulage-uk-compliance-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
